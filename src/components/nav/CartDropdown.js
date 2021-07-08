@@ -71,6 +71,10 @@ function CartDropdown({ cartItem, base_URL, handleCartEvent }) {
                <p>Delivery Price:</p>
                <p className="cdd-cost">€{shippingPrice}</p>
             </div>
+            <div className="cdd-delivery-price">
+               <p>Tax:</p>
+               <p className="cdd-cost">€{taxPrice}</p>
+            </div>
          </div>
          <div className="cdd-total-cost">
             <p>Total cost:</p>

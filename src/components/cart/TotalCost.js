@@ -17,7 +17,10 @@ function TotalCost({ cartItem }) {
             <p>Delivery Price:</p>
             <p className="cdd-cost">€{shippingPrice}</p>
          </div>
-
+         <div className="cdd-delivery-price">
+            <p>Tax:</p>
+            <p className="cdd-cost">€{taxPrice}</p>
+         </div>
          <div className="cdd-total-cost">
             <p>Total cost:</p>
             <p className="cdd-cost">€{totalPrice}</p>
