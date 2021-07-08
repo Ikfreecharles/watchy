@@ -1,0 +1,25 @@
+.sth-outer-div {
+   width: 100%;
+   height: auto;
+   background-color: #fff;
+}
+.sth-outer-container {
+   width: 80%;
+   height: 100%;
+   margin: 0 auto;
+   padding: 3rem 0;
+}
+.sth-outer-container h3 {
+   margin: 0 0 3rem;
+}
+.sth-inner-div {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 30% 30% 30%;
+   column-gap: 10%;
+   background-color: #fff;
+   height: 100%;
+}
+.sth-content {
+   margin: 0 0 2rem;
+}

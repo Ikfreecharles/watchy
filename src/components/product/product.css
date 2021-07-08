@@ -1,0 +1,17 @@
+.p-outer-div {
+   height: 85%;
+   margin: 3rem;
+}
+.p-inner-div {
+   height: 100%;
+   margin: 0 auto;
+}
+.cd-div,
+.pd-div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.pi-div {
+   overflow: hidden;
+}

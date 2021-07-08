@@ -1,0 +1,70 @@
+.cdd-outer-div {
+   background-color: #191919;
+   height: auto;
+   width: 25rem;
+   position: absolute;
+   right: 0;
+   top: 4rem;
+   padding: 1rem;
+}
+.cdd-item-outer {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+   cursor: pointer;
+   height: 6rem;
+   overflow-y: scroll;
+}
+.cdd-item-img {
+   width: 5rem;
+   height: 5rem;
+}
+.cdd-item-img img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.cdd-qty-outer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.cdd-add-remove {
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+.cdd-add-remove p {
+   padding: 0.4rem;
+}
+.cdd-qty-btn {
+   background-color: #303030;
+   border: none;
+}
+.cdd-qty-icon {
+   font-size: 2rem;
+}
+.cdd-del {
+   font-size: 2rem;
+}
+.cdd-total-price,
+.cdd-delivery-price,
+.cdd-total-cost {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 0.5rem;
+   border-bottom: 1px solid #272727;
+}
+.cdd-cost {
+   font-size: 1.2rem;
+   font-weight: 700;
+}
+.cdd-checkout-btn {
+   padding: 1rem 7rem;
+   width: 100%;
+   margin: 2rem auto 0;
+   color: #fff;
+   background-color: #4b4b4b;
+   border: none;
+}

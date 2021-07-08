@@ -1,0 +1,148 @@
+[
+   {
+      "id": "7612356210120",
+      "Title": "Longines Conquest Classic Quartz 29.5mm",
+      "Description": "Ladies watch with diamonds, silver-colored dial and stainless steel bracelet",
+      "Images": [
+         {
+            "id": 1,
+            "image": "/longlines conquest/quarz-29.5mm-l2.286.0.72.6__8ee8606681.png",
+            "color": "white"
+         },
+         {
+            "id": 2,
+            "image": "/longlines conquest/quarz-29.5mm-l2.286.0.72.6__8ee8606681.png",
+            "color": "orange"
+         },
+         {
+            "id": 3,
+            "image": "/longlines conquest/quarz-29.5mm-l2.286.0.87.6__ded508c02e.png",
+            "color": "white"
+         },
+         {
+            "id": 4,
+            "image": "/longlines conquest/quarz-29.5mm-l2.286.4.88.6__788b71abb0.png",
+            "color": "black"
+         },
+         {
+            "id": 5,
+            "image": "/longlines conquest/quarz-29.5mm-l2.286.4.92.6__4850d7e5f3.png",
+            "color": "blue"
+         }
+      ],
+      "Price": 256,
+      "Model": "Women",
+      "Collection": "2021",
+      "Barcode": "7612356209971",
+      "Tagline": "Conquest Classic Quartz 29.5mm ladies watch",
+      "BasicTD": {
+         "Battery": "Quartz movement",
+         "Calender": "Calender with date",
+         "Waterproof": "up to 50 meter",
+         "ProductionOrigin": "Made in Switzerland"
+      },
+      "TechnicalDetails": {
+         "Clockwork": "Quartz (L152)",
+         "Watch case": "Polished stainless steel (silver-colored)",
+         "Clock glass": "sapphire crystal with anti-reflective coating on the inside (scratch-resistant)",
+         "Crown": ["stainless steel", "fluted"],
+         "Bezel": "Polished stainless steel (silver-colored)",
+         "Dial": ["index", "Shiny mother-of-pearl", "(mother-of-pearl)"],
+         "Dial surface": "glittering",
+         "Stone trim on the dial": {
+            "carat": "0.055 ct.",
+            "colour": "Fine white (Top Wesselton), GIA designation: G",
+            "purity": "VS (very small inclusions)"
+         },
+         "Bracelet": "Polished stainless steel and matt (silver-colored). We can adjust the length of the metal bracelet free of charge, if desired. Please indicate the wrist circumference in the order process.",
+         "Calendar": "Date (calendar day)",
+         "Functions": [
+            "Hour hand",
+            "Minute hand",
+            "Second hand",
+            "Low battery indicator"
+         ],
+         "Watertightness": "5 bar (50 meters)",
+         "Extra functions": "This watch has an ETA quartz movement with an EOL indicator",
+         "Case diameter": "29.5 mm",
+         "Scope of delivery": "Box, instructions and warranty card",
+         "Warranty": "2 years from Longines + 1 year from Brogle",
+         "Manufacturer": "Longines",
+         "Collection": "Longines Conquest Classic",
+         "Country of Manufacture": "Switzerland"
+      }
+   },
+   {
+      "id": "10611",
+      "Title": "Baume & Mercier Riviera Quartz 36mm",
+      "Description": "Ladies watch with diamonds, black dial and rubber strap. Also in green dial and rubber strap",
+      "Images": [
+         {
+            "id": 1,
+            "image": "//brogle/quarz-36mm-10613__80d3d0018b.png",
+            "color": "black"
+         },
+         {
+            "id": 2,
+            "image": "/brogle/quarz-36mm-10613__17b6087143.png",
+            "color": "black"
+         },
+         {
+            "id": 3,
+            "image": "/brogle/quarz-36mm-10613__690a3edbc8.png",
+            "color": "black"
+         },
+         {
+            "id": 4,
+            "image": "/brogle/quarz-36mm-10613__d75b0e808e.png",
+            "color": "black"
+         },
+         {
+            "id": 5,
+            "image": "/brogle/quarz-36mm-10611__a343f078fb.png",
+            "color": "yellow"
+         },
+         {
+            "id": 6,
+            "image": "/brogle/quarz-36mm-10611__c4b39439b0.png",
+            "color": "yellow"
+         }
+      ],
+      "Price": 184,
+      "Model": "Women",
+      "Collection": "2021",
+      "Barcode": "10611",
+      "Tagline": "Riviera Quartz 36mm ladies watch",
+      "BasicTD": {
+         "Battery": "Quartz movement",
+         "Calender": "Calender with date",
+         "Waterproof": "up to 50 meter",
+         "ProductionOrigin": "Made in Sweden"
+      },
+      "TechnicalDetails": {
+         "Clockwork": "Quartz (Ronda 714)",
+         "Watch case": "Stainless steel satined (silver-colored && green-colored)",
+         "Clock glass": "double anti-reflective sapphire crystal (scratch-resistant)",
+         "Crown": ["stainless steel"],
+         "Bezel": "Polished stainless steel (silver-colored)",
+         "Dial": ["index and Roman numerals"],
+         "Dial surface": "glittering",
+         "Stone trim on the dial": {
+            "carat": "0.055 ct.",
+            "colour": "Fine white (Top Wesselton), GIA designation: G",
+            "purity": "VS (very small inclusions)"
+         },
+         "Bracelet": "Rubber (Green and Silver)",
+         "Calendar": "Date (calendar day)",
+         "Functions": ["Hour hand", "Minute hand"],
+         "Watertightness": "5 bar (50 meters)",
+         "Extra functions": "This watch has an ETA quartz movement with an EOL indicator",
+         "Case diameter": "36 mm",
+         "Scope of delivery": "Box, instructions and warranty card",
+         "Warranty": "2 years from Baume & Mercier + 1 year from Brogle",
+         "Manufacturer": "Baume & Mercier",
+         "Collection": "Baume & Mercier Riviera",
+         "Country of Manufacture": "Switzerland"
+      }
+   }
+]

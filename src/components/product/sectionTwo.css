@@ -1,0 +1,26 @@
+.st-outer-div {
+   height: auto;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   padding: 8rem;
+}
+.st-inner-div {
+   width: 90%;
+}
+.st-outer-div h2 {
+   margin: 0 0 4rem;
+}
+.st-circle {
+   border-radius: 50%;
+   height: 14rem;
+   width: 14rem;
+   border: 1px solid #303030;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+.st-icons {
+   font-size: 3rem;
+}
