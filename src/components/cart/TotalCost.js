@@ -11,15 +11,15 @@ function TotalCost({ cartItem }) {
       <section className="tc-outer-div">
          <div className="cdd-total-price">
             <p>Total Price: </p>
-            <p className="cdd-cost">€{itemsPrice}</p>
+            <p className="cdd-cost">€{itemsPrice.toFixed(2)}</p>
          </div>
          <div className="cdd-delivery-price">
             <p>Delivery Price:</p>
-            <p className="cdd-cost">€{shippingPrice}</p>
+            <p className="cdd-cost">€{shippingPrice.toFixed(2)}</p>
          </div>
          <div className="cdd-delivery-price">
             <p>Tax:</p>
-            <p className="cdd-cost">€{taxPrice}</p>
+            <p className="cdd-cost">€{taxPrice.toFixed(2)}</p>
          </div>
          <div className="cdd-total-cost">
             <p>Total cost:</p>

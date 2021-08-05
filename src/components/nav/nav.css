@@ -1,10 +1,10 @@
 .nav-outer-div {
    width: 100%;
-   height: 15vh;
 }
 .nav-outer-div-inner {
    width: 90vw;
    height: 100%;
+   padding: 2rem 0;
    display: flex;
    align-items: center;
    border-bottom: 1px solid #2e2e2e;
@@ -50,8 +50,8 @@
    justify-content: center;
 }
 .nav-cart-items {
-   width: 2rem;
-   height: 2rem;
+   min-width: 2rem;
+   min-height: 2rem;
    background-color: red;
    border-radius: 50%;
    color: #fff;

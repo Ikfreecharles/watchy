@@ -1,8 +1,13 @@
+import { useContext } from "react";
+
+//import css and components
 import "./cartItemList.css";
 import { IoIosAdd, IoIosRemove } from "react-icons/io";
 import { MdDelete } from "react-icons/md";
+import AppContext from "../../context/app-context";
 
-function CartItemList({ cartItem, base_URL, handleCartEvent }) {
+function CartItemList({ cartItem }) {
+   const { base_URL, handleCartEvent } = useContext(AppContext);
    //function to handle events in the cart
    const handleCart = (e, option, item) => {
       e.preventDefault();
@@ -13,9 +18,9 @@ function CartItemList({ cartItem, base_URL, handleCartEvent }) {
       <section>
          {cartItem.length > 0 ? (
             cartItem.map((item) => {
-               const { id, Title, Description, qty, Price, Images } = item;
+               const { Id, Title, Description, qty, Price, Images } = item;
                return (
-                  <div key={id}>
+                  <div key={Id}>
                      <article className="c-outer-div">
                         <div className="c-img-div">
                            <img
@@ -25,7 +30,6 @@ function CartItemList({ cartItem, base_URL, handleCartEvent }) {
                         </div>
                         <div className="c-title-div">
                            <h2>{Title}</h2>
-                           <p>{Description}</p>
                         </div>
                         <div className="c-qty">
                            <button

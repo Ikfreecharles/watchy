@@ -3,24 +3,31 @@
    display: flex;
    align-items: center;
    text-align: center;
-   padding: 8rem;
+   padding: 8rem 0;
 }
 .st-inner-div {
    width: 90%;
+   margin: 0 auto;
 }
 .st-outer-div h2 {
    margin: 0 0 4rem;
+   font-family: Roboto, "sans-serif";
 }
 .st-circle {
    border-radius: 50%;
-   height: 14rem;
-   width: 14rem;
-   border: 1px solid #303030;
+   height: 13rem;
+   width: 13rem;
+   border: 2px solid #303030;
    display: flex;
    justify-content: center;
    align-items: center;
    margin: 0 auto;
 }
+.st-inner-circle {
+   width: 70%;
+   margin: 0 auto;
+}
 .st-icons {
    font-size: 3rem;
+   margin-bottom: 1rem;
 }

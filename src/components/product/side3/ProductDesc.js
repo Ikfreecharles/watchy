@@ -1,7 +1,11 @@
+import { useContext } from "react";
+//import css and components
 import "./productDesc.css";
 import { BsPlus } from "react-icons/bs";
+import AppContext from "../../../context/app-context";
 
-function ProductDesc({ dataBaseItem, handleCartEvent, cartItems }) {
+function ProductDesc({ dataBaseItem }) {
+   const { handleCartEvent, cartItem } = useContext(AppContext);
    const { Model, Collection, Price, Description } = dataBaseItem;
 
    //function to handle add to cart
@@ -28,12 +32,12 @@ function ProductDesc({ dataBaseItem, handleCartEvent, cartItems }) {
             onClick={(e) => handleClickCart(e, "add", dataBaseItem)}
             style={{
                pointerEvents:
-                  cartItems.map((item) => item.id).includes(dataBaseItem.id) &&
+                  cartItem.map((item) => item.Id).includes(dataBaseItem.Id) &&
                   "none",
             }}
          >
             <p>
-               {cartItems.map((item) => item.id).includes(dataBaseItem.id)
+               {cartItem.map((item) => item.Id).includes(dataBaseItem.Id)
                   ? "Item added"
                   : "Add to Cart"}
             </p>

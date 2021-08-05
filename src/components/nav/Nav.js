@@ -1,15 +1,13 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
+
+//import css and components
 import "./nav.css";
 import { Link } from "react-router-dom";
 import CartDropdown from "./CartDropdown";
+import AppContext from "../../context/app-context";
 
-function Nav({
-   numberOfItems,
-   cartItemsId,
-   cartItem,
-   base_URL,
-   handleCartEvent,
-}) {
+function Nav() {
+   const { numberOfItems } = useContext(AppContext);
    const [hovered, sethovered] = useState(false);
 
    useEffect(() => {
@@ -48,14 +46,7 @@ function Nav({
                   </div>
                </div>
             </article>
-            {hovered && (
-               <CartDropdown
-                  cartItemsId={cartItemsId}
-                  cartItem={cartItem}
-                  base_URL={base_URL}
-                  handleCartEvent={handleCartEvent}
-               />
-            )}
+            {hovered && <CartDropdown />}
          </article>
       </section>
    );

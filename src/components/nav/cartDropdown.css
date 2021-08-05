@@ -12,8 +12,6 @@
    align-items: flex-start;
    justify-content: space-between;
    cursor: pointer;
-   height: 6rem;
-   overflow-y: scroll;
 }
 .cdd-item-img {
    width: 5rem;
@@ -61,7 +59,7 @@
    font-weight: 700;
 }
 .cdd-checkout-btn {
-   padding: 1rem 7rem;
+   padding: 1rem 0;
    width: 100%;
    margin: 2rem auto 0;
    color: #fff;

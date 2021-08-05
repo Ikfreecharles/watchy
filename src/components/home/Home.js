@@ -1,14 +1,52 @@
-import "./home.css";
+import { useContext } from "react";
 import { Link } from "react-router-dom";
-import data from "../database/database.json";
-const base_URL = "/images/";
+
+//import css and components
+import "./home.css";
+import AppContext from "../../context/app-context";
 
 function Home() {
-   const handleColor = (a) => {
-      return [...new Set(a)];
-   };
+   const { products } = useContext(AppContext);
    return (
       <section className="container">
+         <div className="h-title">
+            <h1>Welcome to Thompson watches</h1>
+            <h6>Home of classic watches for men and women</h6>
+         </div>
+         <div className="h-product-cards">
+            <div className="row g-5">
+               {products.map((item) => {
+                  const { Id, Title, Images, Price } = item;
+                  return (
+                     <div key={Id} className="col-md-3">
+                        <Link
+                           to={`/products/${Id}`}
+                           style={{
+                              color: "inherit",
+                              textDecoration: "none",
+                           }}
+                        >
+                           <div className="h-product-card">
+                              <div className="h-product-img">
+                                 <img src={Images[0].image} alt={Title} />
+                              </div>
+                              <div className="h-product-description">
+                                 <p className="h-product-name">{Title}</p>
+
+                                 <div className="h-product-metadata">
+                                    <p className="h-price">€{Price}</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </Link>
+                     </div>
+                  );
+               })}{" "}
+            </div>
+         </div>
+      </section>
+
+      /* <section className="container">
          <div className="h-title">
             <h1>Welcome to Thompson watches</h1>
             <h6>Home of classic watches for men and women</h6>
@@ -71,7 +109,7 @@ function Home() {
                })}{" "}
             </div>
          </div>
-      </section>
+      </section> */
    );
 }
 

@@ -23,3 +23,7 @@
 .sth-content {
    margin: 0 0 2rem;
 }
+.sth-content h5 {
+   font-family: Roboto, "san-serif";
+   font-weight: 600;
+}

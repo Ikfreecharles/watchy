@@ -4,7 +4,7 @@ import ProductImg from "./side2/ProductImg";
 import ProductDesc from "./side3/ProductDesc";
 const base_URL = "/images/";
 
-function SectionOne({ dataBase, match, handleCartEvent, cartItems }) {
+function SectionOne({ dataBase }) {
    const { Images } = dataBase;
 
    return (
@@ -17,13 +17,7 @@ function SectionOne({ dataBase, match, handleCartEvent, cartItems }) {
                <ProductImg images={Images} base_URL={base_URL} />
             </div>
             <div className="col-md-4 pd-div">
-               <ProductDesc
-                  dataBaseItem={dataBase}
-                  match={match}
-                  handleCartEvent={handleCartEvent}
-                  cartItems={cartItems}
-               />
-               ;
+               <ProductDesc dataBaseItem={dataBase} />
             </div>
          </div>
       </section>
